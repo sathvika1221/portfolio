@@ -83,36 +83,38 @@ const workExperiences = {
 };
 
 // Projects
-const bigProjects = {
+
+  const bigProjects = {
   title: "Featured Projects",
   subtitle: "AI and Machine Learning Projects",
 
   projects: [
-    
     {
       projectName: "Fake News Detection",
-      projectDesc:
-        "Machine learning model for fake news detection."
+      projectDesc: "Machine learning model for fake news detection.",
+      githubLink: "https://github.com/sathvika1221/fake-news-detection"
     },
     {
       projectName: "News Classification System",
-      projectDesc:
-        "NLP-based news classification system."
+      projectDesc: "NLP-based news classification system.",
+      githubLink: "https://github.com/sathvika1221/news-classification"
     },
     {
       projectName: "Stree Raksha",
-      projectDesc:
-        "Safety-focused application concept."
+      projectDesc: "Safety-focused application concept.",
+      githubLink: "https://github.com/sathvika1221/stree-raksha"
     },
     {
       projectName: "Soil Analysis Using AI/ML",
-      projectDesc:
-        "AI-based soil analysis project."
+      projectDesc: "AI-based soil analysis project.",
+      githubLink: "https://github.com/sathvika1221/soil-analysis"
     }
   ],
 
   display: true
-};
+  }
+  
+
 
 // Achievement Section
 const achievementSection = {
@@ -293,8 +295,12 @@ const openSource = {
 };
 
 const socialMediaLinks = {
-  display: false
+  github: "https://github.com/sathvika1221",
+  linkedin: "https://www.linkedin.com/in/sathvika-medabalimi-ab5718338",
+  gmail: "sathvika.medaabalimi@gmail.com",
+  display: true
 };
+
 const blogSection = {
   title: "Blogs",
   subtitle: "Coming Soon",
